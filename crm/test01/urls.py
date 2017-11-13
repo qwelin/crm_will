@@ -12,6 +12,7 @@ urlpatterns = [
     url(r'^teacher_index/$', views.teacher_index,name='teacher_index'),
     url(r'^customer_index/$', views.customer_index,name='customer_index'),
     url(r'^sale_index/$', views.sale_index,name='sale_index'),
+    url(r'^customerfollowuo/$', views.customerfollowup,name='customerfollowup'),
 ]
 
 # 销售 sale_index customer_index

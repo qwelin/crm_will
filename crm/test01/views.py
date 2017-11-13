@@ -19,3 +19,6 @@ def customer_index(request):
 
 def teacher_index(request):
     return render(request,'teacher_index.html')
+
+def customerfollowup(request):
+    return render(request,'customerfollowup.html')
